@@ -1,0 +1,14 @@
+.. _exhale_define_define_8hpp_1a4a9d32ff035c82119003134767948ebf:
+
+Define NX
+=========
+
+- Defined in :ref:`file_define.hpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: NX
+   :project: Cubed-Sphere-Shallow-Water-Model-A-grid

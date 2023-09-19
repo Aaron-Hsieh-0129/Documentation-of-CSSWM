@@ -1,0 +1,14 @@
+.. _exhale_define_define_8hpp_1a943f07034774ef1261d62cd0d3d1fec9:
+
+Define DT
+=========
+
+- Defined in :ref:`file_define.hpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: DT
+   :project: Cubed-Sphere-Shallow-Water-Model-A-grid

@@ -1,0 +1,14 @@
+.. _exhale_define_define_8hpp_1aa4f8ea40228c3c3a9a7143b1d1ad8956:
+
+Define RADIUS
+=============
+
+- Defined in :ref:`file_define.hpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: RADIUS
+   :project: Cubed-Sphere-Shallow-Water-Model-A-grid

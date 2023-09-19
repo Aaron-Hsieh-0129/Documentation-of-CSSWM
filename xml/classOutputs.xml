@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classOutputs" kind="class" language="C++" prot="public">
+    <compoundname>Outputs</compoundname>
+    <includes local="no">outputs.hpp</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classOutputs_1a5f77dbd5114164e5fe4ef1d3da301c04" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Outputs::grid</definition>
+        <argsstring>(CSSWM &amp;)</argsstring>
+        <name>grid</name>
+        <qualifiedname>Outputs::grid</qualifiedname>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <defname>model</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="outputs.hpp" line="10" column="17" bodyfile="outputs.cpp" bodystart="20" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classOutputs_1a5f2938545c4202bea836d4792cb752bc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Outputs::h</definition>
+        <argsstring>(int, CSSWM &amp;)</argsstring>
+        <name>h</name>
+        <qualifiedname>Outputs::h</qualifiedname>
+        <param>
+          <type>int</type>
+          <defname>n</defname>
+        </param>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <defname>model</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="outputs.hpp" line="11" column="17" bodyfile="outputs.cpp" bodystart="42" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classOutputs_1add873953e26463630276f25e6ae0aaa2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Outputs::u</definition>
+        <argsstring>(int, CSSWM &amp;)</argsstring>
+        <name>u</name>
+        <qualifiedname>Outputs::u</qualifiedname>
+        <param>
+          <type>int</type>
+          <defname>n</defname>
+        </param>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <defname>model</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="outputs.hpp" line="12" column="17" bodyfile="outputs.cpp" bodystart="56" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classOutputs_1a8da649cec0258203f53e035cef55822f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Outputs::v</definition>
+        <argsstring>(int, CSSWM &amp;)</argsstring>
+        <name>v</name>
+        <qualifiedname>Outputs::v</qualifiedname>
+        <param>
+          <type>int</type>
+          <defname>n</defname>
+        </param>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <defname>model</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="outputs.hpp" line="13" column="17" bodyfile="outputs.cpp" bodystart="75" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classOutputs_1ab8e90bfa8491ce1b22cb1e0918cd7d86" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Outputs::grid_nc</definition>
+        <argsstring>(CSSWM &amp;)</argsstring>
+        <name>grid_nc</name>
+        <qualifiedname>Outputs::grid_nc</qualifiedname>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <defname>model</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="outputs.hpp" line="15" column="17" bodyfile="outputs.cpp" bodystart="94" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classOutputs_1a4805f4ea915e6a51c8de18a7584c6024" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Outputs::huv_nc</definition>
+        <argsstring>(int, CSSWM &amp;)</argsstring>
+        <name>huv_nc</name>
+        <qualifiedname>Outputs::huv_nc</qualifiedname>
+        <param>
+          <type>int</type>
+          <defname>n</defname>
+        </param>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <defname>model</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="outputs.hpp" line="16" column="17" bodyfile="outputs.cpp" bodystart="141" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classOutputs_1a59cce05e14191b2b73324985a7674177" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Outputs::create_all_directory</definition>
+        <argsstring>()</argsstring>
+        <name>create_all_directory</name>
+        <qualifiedname>Outputs::create_all_directory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="outputs.hpp" line="18" column="17" bodyfile="outputs.cpp" bodystart="196" bodyend="209"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classOutputs_1a2b42d9be240dd167bc163f08d0f61d26" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Outputs::create_directory</definition>
+        <argsstring>(std::string)</argsstring>
+        <name>create_directory</name>
+        <qualifiedname>Outputs::create_directory</qualifiedname>
+        <param>
+          <type>std::string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="outputs.hpp" line="21" column="17" bodyfile="outputs.cpp" bodystart="9" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="outputs.hpp" line="8" column="1" bodyfile="outputs.hpp" bodystart="8" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classOutputs_1a59cce05e14191b2b73324985a7674177" prot="public" virt="non-virtual"><scope>Outputs</scope><name>create_all_directory</name></member>
+      <member refid="classOutputs_1a2b42d9be240dd167bc163f08d0f61d26" prot="private" virt="non-virtual"><scope>Outputs</scope><name>create_directory</name></member>
+      <member refid="classOutputs_1a5f77dbd5114164e5fe4ef1d3da301c04" prot="public" virt="non-virtual"><scope>Outputs</scope><name>grid</name></member>
+      <member refid="classOutputs_1ab8e90bfa8491ce1b22cb1e0918cd7d86" prot="public" virt="non-virtual"><scope>Outputs</scope><name>grid_nc</name></member>
+      <member refid="classOutputs_1a5f2938545c4202bea836d4792cb752bc" prot="public" virt="non-virtual"><scope>Outputs</scope><name>h</name></member>
+      <member refid="classOutputs_1a4805f4ea915e6a51c8de18a7584c6024" prot="public" virt="non-virtual"><scope>Outputs</scope><name>huv_nc</name></member>
+      <member refid="classOutputs_1add873953e26463630276f25e6ae0aaa2" prot="public" virt="non-virtual"><scope>Outputs</scope><name>u</name></member>
+      <member refid="classOutputs_1a8da649cec0258203f53e035cef55822f" prot="public" virt="non-virtual"><scope>Outputs</scope><name>v</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

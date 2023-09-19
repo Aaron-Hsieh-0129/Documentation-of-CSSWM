@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="outputs_8hpp" kind="file" language="C++">
+    <compoundname>outputs.hpp</compoundname>
+    <includes local="no">fstream</includes>
+    <includes local="no">cstdlib</includes>
+    <includes local="no">cstring</includes>
+    <includes local="no">netcdf</includes>
+    <includes local="no">vector</includes>
+    <includes refid="initialField_8hpp" local="yes">initialField.hpp</includes>
+    <includedby refid="iteration_8hpp" local="yes">iteration.hpp</includedby>
+    <includedby refid="outputs_8cpp" local="yes">outputs.cpp</includedby>
+    <incdepgraph>
+      <node id="8">
+        <label>construction.hpp</label>
+        <link refid="construction_8hpp"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>define.hpp</label>
+        <link refid="define_8hpp"/>
+      </node>
+      <node id="7">
+        <label>initialField.hpp</label>
+        <link refid="initialField_8hpp"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>outputs.hpp</label>
+        <link refid="outputs_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>cmath</label>
+      </node>
+      <node id="3">
+        <label>cstdlib</label>
+      </node>
+      <node id="4">
+        <label>cstring</label>
+      </node>
+      <node id="2">
+        <label>fstream</label>
+      </node>
+      <node id="11">
+        <label>iomanip</label>
+      </node>
+      <node id="10">
+        <label>iostream</label>
+      </node>
+      <node id="5">
+        <label>netcdf</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>iteration.cpp</label>
+        <link refid="iteration_8cpp"/>
+      </node>
+      <node id="2">
+        <label>iteration.hpp</label>
+        <link refid="iteration_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="5">
+        <label>outputs.cpp</label>
+        <link refid="outputs_8cpp"/>
+      </node>
+      <node id="1">
+        <label>outputs.hpp</label>
+        <link refid="outputs_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classOutputs" prot="public">Outputs</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdlib&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstring&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;netcdf&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="initialField_8hpp" kindref="compound">initialField.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classOutputs" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classOutputs" kindref="compound">Outputs</ref><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classOutputs_1a5f77dbd5114164e5fe4ef1d3da301c04" kindref="member">grid</ref>(<ref refid="classCSSWM" kindref="compound">CSSWM</ref><sp/>&amp;);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classOutputs_1a5f2938545c4202bea836d4792cb752bc" kindref="member">h</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/><ref refid="classCSSWM" kindref="compound">CSSWM</ref><sp/>&amp;);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classOutputs_1add873953e26463630276f25e6ae0aaa2" kindref="member">u</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/><ref refid="classCSSWM" kindref="compound">CSSWM</ref><sp/>&amp;);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classOutputs_1a8da649cec0258203f53e035cef55822f" kindref="member">v</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/><ref refid="classCSSWM" kindref="compound">CSSWM</ref><sp/>&amp;);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classOutputs_1ab8e90bfa8491ce1b22cb1e0918cd7d86" kindref="member">grid_nc</ref>(<ref refid="classCSSWM" kindref="compound">CSSWM</ref><sp/>&amp;);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classOutputs_1a4805f4ea915e6a51c8de18a7584c6024" kindref="member">huv_nc</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/><ref refid="classCSSWM" kindref="compound">CSSWM</ref><sp/>&amp;);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classOutputs_1a59cce05e14191b2b73324985a7674177" kindref="member">create_all_directory</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classOutputs_1a2b42d9be240dd167bc163f08d0f61d26" kindref="member">create_directory</ref>(std::string);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="outputs.hpp"/>
+  </compounddef>
+</doxygen>

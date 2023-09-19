@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classCSSWM_1_1patch" kind="class" language="C++" prot="public">
+    <compoundname>CSSWM::patch</compoundname>
+    <includes local="no">construction.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1a6ff92e37da5b65236a0d1cb56aaa7bdd" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::hp[NX][NY]</definition>
+        <argsstring>[NX][NY]</argsstring>
+        <name>hp</name>
+        <qualifiedname>CSSWM::patch::hp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="13" column="16" bodyfile="construction.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1af265135ad67cfd8161a0f96ea743e434" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::h[NX][NY]</definition>
+        <argsstring>[NX][NY]</argsstring>
+        <name>h</name>
+        <qualifiedname>CSSWM::patch::h</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="13" column="19" bodyfile="construction.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1ada7ba6b232471f31757f35a426390e0b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::hm[NX][NY]</definition>
+        <argsstring>[NX][NY]</argsstring>
+        <name>hm</name>
+        <qualifiedname>CSSWM::patch::hm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="13" column="21" bodyfile="construction.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1ac01a3dc4f17c6aa088fc97958b82add7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::up[NX][NY]</definition>
+        <argsstring>[NX][NY]</argsstring>
+        <name>up</name>
+        <qualifiedname>CSSWM::patch::up</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="14" column="16" bodyfile="construction.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1ae45aad50beba2520f76b6533571bc2a9" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::u[NX][NY]</definition>
+        <argsstring>[NX][NY]</argsstring>
+        <name>u</name>
+        <qualifiedname>CSSWM::patch::u</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="14" column="19" bodyfile="construction.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1ad7f6871e061a53a001d8d88172cc7e26" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::um[NX][NY]</definition>
+        <argsstring>[NX][NY]</argsstring>
+        <name>um</name>
+        <qualifiedname>CSSWM::patch::um</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="14" column="21" bodyfile="construction.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1aaf82f7bd8ec2c390f93c95f28de23f46" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::vp[NX][NY]</definition>
+        <argsstring>[NX][NY]</argsstring>
+        <name>vp</name>
+        <qualifiedname>CSSWM::patch::vp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="15" column="16" bodyfile="construction.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1a044f29f613954a9492e3172d1c0f7aa7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::v[NX][NY]</definition>
+        <argsstring>[NX][NY]</argsstring>
+        <name>v</name>
+        <qualifiedname>CSSWM::patch::v</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="15" column="19" bodyfile="construction.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1aa5aed0db5cc2dcc8e68153c3e5b26ecc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::vm[NX][NY]</definition>
+        <argsstring>[NX][NY]</argsstring>
+        <name>vm</name>
+        <qualifiedname>CSSWM::patch::vm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="15" column="21" bodyfile="construction.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1ab2aee85d286a936e359320baaa433dbd" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::lon[NX][NY]</definition>
+        <argsstring>[NX][NY]</argsstring>
+        <name>lon</name>
+        <qualifiedname>CSSWM::patch::lon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="21" column="16" bodyfile="construction.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1ae809c4c42694844b9518a32196eeb1ba" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::lat[NX][NY]</definition>
+        <argsstring>[NX][NY]</argsstring>
+        <name>lat</name>
+        <qualifiedname>CSSWM::patch::lat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="21" column="20" bodyfile="construction.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1aa8f56250610d14d8b92b2c891956a41d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::lon_original[NX][NY]</definition>
+        <argsstring>[NX][NY]</argsstring>
+        <name>lon_original</name>
+        <qualifiedname>CSSWM::patch::lon_original</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="22" column="16" bodyfile="construction.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1a0ab387b6f642e3434172d89ebad61fe5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::x[NX][NY]</definition>
+        <argsstring>[NX][NY]</argsstring>
+        <name>x</name>
+        <qualifiedname>CSSWM::patch::x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="24" column="16" bodyfile="construction.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1ac1edf80c94709ff43f7e15ae9d7e5c24" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::y[NX][NY]</definition>
+        <argsstring>[NX][NY]</argsstring>
+        <name>y</name>
+        <qualifiedname>CSSWM::patch::y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="24" column="18" bodyfile="construction.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1afe50292150d3ef738d91deee1c1d07fe" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::A[NX][NY][4]</definition>
+        <argsstring>[NX][NY][4]</argsstring>
+        <name>A</name>
+        <qualifiedname>CSSWM::patch::A</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="26" column="16" bodyfile="construction.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1a10784ea27d9b72df2649e43411a732c1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::IA[NX][NY][4]</definition>
+        <argsstring>[NX][NY][4]</argsstring>
+        <name>IA</name>
+        <qualifiedname>CSSWM::patch::IA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="26" column="18" bodyfile="construction.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1ad8475dcfce8a1415c98a4f1bff8d82e7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::IP_ouTTer_L[NX][4]</definition>
+        <argsstring>[NX][4]</argsstring>
+        <name>IP_ouTTer_L</name>
+        <qualifiedname>CSSWM::patch::IP_ouTTer_L</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="31" column="20" bodyfile="construction.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1a51d467ea3c2fc67b4cb5bf221a9110ca" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::IP_ouTTer_R[NX][4]</definition>
+        <argsstring>[NX][4]</argsstring>
+        <name>IP_ouTTer_R</name>
+        <qualifiedname>CSSWM::patch::IP_ouTTer_R</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="31" column="32" bodyfile="construction.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1a49ef7203e0ab8044a547f68cb1070912" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::IP_ouTTer_U[NX][4]</definition>
+        <argsstring>[NX][4]</argsstring>
+        <name>IP_ouTTer_U</name>
+        <qualifiedname>CSSWM::patch::IP_ouTTer_U</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="31" column="44" bodyfile="construction.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1a99a2a45e7aee115aa9f6b8ba6593b67d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::IP_ouTTer_D[NX][4]</definition>
+        <argsstring>[NX][4]</argsstring>
+        <name>IP_ouTTer_D</name>
+        <qualifiedname>CSSWM::patch::IP_ouTTer_D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="31" column="56" bodyfile="construction.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1abd49ec78ff3588ff7c03b498b753c9bf" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::IP_ouTer_L[NX][4]</definition>
+        <argsstring>[NX][4]</argsstring>
+        <name>IP_ouTer_L</name>
+        <qualifiedname>CSSWM::patch::IP_ouTer_L</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="32" column="20" bodyfile="construction.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1ae5f2844301e9f06c7f2b98ceda2168ae" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::IP_ouTer_R[NX][4]</definition>
+        <argsstring>[NX][4]</argsstring>
+        <name>IP_ouTer_R</name>
+        <qualifiedname>CSSWM::patch::IP_ouTer_R</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="32" column="31" bodyfile="construction.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1ae3e0043b39969ab4eed2bd3384a8e5c3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::IP_ouTer_U[NX][4]</definition>
+        <argsstring>[NX][4]</argsstring>
+        <name>IP_ouTer_U</name>
+        <qualifiedname>CSSWM::patch::IP_ouTer_U</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="32" column="42" bodyfile="construction.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1_1patch_1a315fca66692e181cf9a9fab3d2305d01" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::patch::IP_ouTer_D[NX][4]</definition>
+        <argsstring>[NX][4]</argsstring>
+        <name>IP_ouTer_D</name>
+        <qualifiedname>CSSWM::patch::IP_ouTer_D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="32" column="53" bodyfile="construction.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCSSWM_1_1patch_1a11d2ff314cefa574d8019ca54400f152" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CSSWM::patch::patch</definition>
+        <argsstring>()</argsstring>
+        <name>patch</name>
+        <qualifiedname>CSSWM::patch::patch</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="11" column="9" bodyfile="construction.cpp" bodystart="3" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="construction.hpp" line="8" column="5" bodyfile="construction.hpp" bodystart="8" bodyend="34"/>
+    <listofallmembers>
+      <member refid="classCSSWM_1_1patch_1afe50292150d3ef738d91deee1c1d07fe" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>A</name></member>
+      <member refid="classCSSWM_1_1patch_1af265135ad67cfd8161a0f96ea743e434" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>h</name></member>
+      <member refid="classCSSWM_1_1patch_1ada7ba6b232471f31757f35a426390e0b" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>hm</name></member>
+      <member refid="classCSSWM_1_1patch_1a6ff92e37da5b65236a0d1cb56aaa7bdd" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>hp</name></member>
+      <member refid="classCSSWM_1_1patch_1a10784ea27d9b72df2649e43411a732c1" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>IA</name></member>
+      <member refid="classCSSWM_1_1patch_1a315fca66692e181cf9a9fab3d2305d01" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>IP_ouTer_D</name></member>
+      <member refid="classCSSWM_1_1patch_1abd49ec78ff3588ff7c03b498b753c9bf" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>IP_ouTer_L</name></member>
+      <member refid="classCSSWM_1_1patch_1ae5f2844301e9f06c7f2b98ceda2168ae" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>IP_ouTer_R</name></member>
+      <member refid="classCSSWM_1_1patch_1ae3e0043b39969ab4eed2bd3384a8e5c3" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>IP_ouTer_U</name></member>
+      <member refid="classCSSWM_1_1patch_1a99a2a45e7aee115aa9f6b8ba6593b67d" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>IP_ouTTer_D</name></member>
+      <member refid="classCSSWM_1_1patch_1ad8475dcfce8a1415c98a4f1bff8d82e7" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>IP_ouTTer_L</name></member>
+      <member refid="classCSSWM_1_1patch_1a51d467ea3c2fc67b4cb5bf221a9110ca" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>IP_ouTTer_R</name></member>
+      <member refid="classCSSWM_1_1patch_1a49ef7203e0ab8044a547f68cb1070912" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>IP_ouTTer_U</name></member>
+      <member refid="classCSSWM_1_1patch_1ae809c4c42694844b9518a32196eeb1ba" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>lat</name></member>
+      <member refid="classCSSWM_1_1patch_1ab2aee85d286a936e359320baaa433dbd" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>lon</name></member>
+      <member refid="classCSSWM_1_1patch_1aa8f56250610d14d8b92b2c891956a41d" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>lon_original</name></member>
+      <member refid="classCSSWM_1_1patch_1a11d2ff314cefa574d8019ca54400f152" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>patch</name></member>
+      <member refid="classCSSWM_1_1patch_1ae45aad50beba2520f76b6533571bc2a9" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>u</name></member>
+      <member refid="classCSSWM_1_1patch_1ad7f6871e061a53a001d8d88172cc7e26" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>um</name></member>
+      <member refid="classCSSWM_1_1patch_1ac01a3dc4f17c6aa088fc97958b82add7" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>up</name></member>
+      <member refid="classCSSWM_1_1patch_1a044f29f613954a9492e3172d1c0f7aa7" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>v</name></member>
+      <member refid="classCSSWM_1_1patch_1aa5aed0db5cc2dcc8e68153c3e5b26ecc" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>vm</name></member>
+      <member refid="classCSSWM_1_1patch_1aaf82f7bd8ec2c390f93c95f28de23f46" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>vp</name></member>
+      <member refid="classCSSWM_1_1patch_1a0ab387b6f642e3434172d89ebad61fe5" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>x</name></member>
+      <member refid="classCSSWM_1_1patch_1ac1edf80c94709ff43f7e15ae9d7e5c24" prot="public" virt="non-virtual"><scope>CSSWM::patch</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

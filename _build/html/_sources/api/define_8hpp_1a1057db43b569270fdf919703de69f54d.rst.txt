@@ -1,0 +1,14 @@
+.. _exhale_define_define_8hpp_1a1057db43b569270fdf919703de69f54d:
+
+Define ALPHA0
+=============
+
+- Defined in :ref:`file_define.hpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: ALPHA0
+   :project: Cubed-Sphere-Shallow-Water-Model-A-grid

@@ -1,0 +1,14 @@
+.. _exhale_define_define_8hpp_1a6801baa546c6112d19eb095111d24720:
+
+Define GRAVITY
+==============
+
+- Defined in :ref:`file_define.hpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: GRAVITY
+   :project: Cubed-Sphere-Shallow-Water-Model-A-grid

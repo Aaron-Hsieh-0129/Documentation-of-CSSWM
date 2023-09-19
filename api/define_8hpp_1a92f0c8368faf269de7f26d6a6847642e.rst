@@ -1,0 +1,14 @@
+.. _exhale_define_define_8hpp_1a92f0c8368faf269de7f26d6a6847642e:
+
+Define OUTPUTPATH
+=================
+
+- Defined in :ref:`file_define.hpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: OUTPUTPATH
+   :project: Cubed-Sphere-Shallow-Water-Model-A-grid

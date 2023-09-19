@@ -1,0 +1,14 @@
+.. _exhale_define_define_8hpp_1a34e118b69297fce9365f796c79437add:
+
+Define OUTPUTINTERVAL
+=====================
+
+- Defined in :ref:`file_define.hpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: OUTPUTINTERVAL
+   :project: Cubed-Sphere-Shallow-Water-Model-A-grid

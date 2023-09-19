@@ -1,0 +1,14 @@
+.. _exhale_define_define_8hpp_1a0726a750fb3d9122ed716b5ed67ae926:
+
+Define TIMEFILTER
+=================
+
+- Defined in :ref:`file_define.hpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: TIMEFILTER
+   :project: Cubed-Sphere-Shallow-Water-Model-A-grid

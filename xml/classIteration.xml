@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classIteration" kind="class" language="C++" prot="public">
+    <compoundname>Iteration</compoundname>
+    <includes local="no">iteration.hpp</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classIteration_1a5234031fa1dc76c671bb96e4faf1b7d7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Iteration::leap_frog</definition>
+        <argsstring>(CSSWM &amp;)</argsstring>
+        <name>leap_frog</name>
+        <qualifiedname>Iteration::leap_frog</qualifiedname>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <defname>model</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="iteration.hpp" line="6" column="17" bodyfile="iteration.cpp" bodystart="312" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="classIteration_1aaaba7c504ee3268e8c02479eb8f1f1be" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Iteration::ph_pt_4</definition>
+        <argsstring>(CSSWM &amp;)</argsstring>
+        <name>ph_pt_4</name>
+        <qualifiedname>Iteration::ph_pt_4</qualifiedname>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <defname>model</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="iteration.hpp" line="12" column="21" bodyfile="iteration.cpp" bodystart="148" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classIteration_1a2c56a4bac198f0a6d40d41f1eb60bc4e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Iteration::pu_pt_4</definition>
+        <argsstring>(CSSWM &amp;)</argsstring>
+        <name>pu_pt_4</name>
+        <qualifiedname>Iteration::pu_pt_4</qualifiedname>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <defname>model</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="iteration.hpp" line="13" column="21" bodyfile="iteration.cpp" bodystart="180" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classIteration_1a3acc71ac01df6f34d2c5044e9b0241b6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Iteration::pv_pt_4</definition>
+        <argsstring>(CSSWM &amp;)</argsstring>
+        <name>pv_pt_4</name>
+        <qualifiedname>Iteration::pv_pt_4</qualifiedname>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <defname>model</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="iteration.hpp" line="14" column="21" bodyfile="iteration.cpp" bodystart="245" bodyend="308"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="iteration.hpp" line="3" column="1" bodyfile="iteration.hpp" bodystart="3" bodyend="16"/>
+    <listofallmembers>
+      <member refid="classIteration_1a5234031fa1dc76c671bb96e4faf1b7d7" prot="public" virt="non-virtual"><scope>Iteration</scope><name>leap_frog</name></member>
+      <member refid="classIteration_1aaaba7c504ee3268e8c02479eb8f1f1be" prot="public" virt="non-virtual"><scope>Iteration</scope><name>ph_pt_4</name></member>
+      <member refid="classIteration_1a2c56a4bac198f0a6d40d41f1eb60bc4e" prot="public" virt="non-virtual"><scope>Iteration</scope><name>pu_pt_4</name></member>
+      <member refid="classIteration_1a3acc71ac01df6f34d2c5044e9b0241b6" prot="public" virt="non-virtual"><scope>Iteration</scope><name>pv_pt_4</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

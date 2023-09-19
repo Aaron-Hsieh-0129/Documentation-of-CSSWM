@@ -1,0 +1,1109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classCSSWM" kind="class" language="C++" prot="public">
+    <compoundname>CSSWM</compoundname>
+    <includes local="no">construction.hpp</includes>
+    <innerclass refid="classCSSWM_1_1patch" prot="public">CSSWM::patch</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classCSSWM_1a700d22663571c912931d18420588c229" prot="public" static="no" mutable="no">
+        <type><ref refid="classCSSWM_1_1patch" kindref="compound">patch</ref></type>
+        <definition>patch CSSWM::csswm[6]</definition>
+        <argsstring>[6]</argsstring>
+        <name>csswm</name>
+        <qualifiedname>CSSWM::csswm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="37" column="11" bodyfile="construction.hpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1a8e97aa17413d2f1906118e09959cd7e0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::sqrtG[NX][NY]</definition>
+        <argsstring>[NX][NY]</argsstring>
+        <name>sqrtG</name>
+        <qualifiedname>CSSWM::sqrtG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="38" column="12" bodyfile="construction.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1aa49917ddb2d51169a0f7a5713dc377a4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::gamma[NX][NY]</definition>
+        <argsstring>[NX][NY]</argsstring>
+        <name>gamma</name>
+        <qualifiedname>CSSWM::gamma</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="38" column="18" bodyfile="construction.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1ae8db5c4014b60ee7e71a4260e84aecc4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::gLower[NX][NY][4]</definition>
+        <argsstring>[NX][NY][4]</argsstring>
+        <name>gLower</name>
+        <qualifiedname>CSSWM::gLower</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="38" column="24" bodyfile="construction.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1a332193198016b7a4807d26bf4f2d7a2e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::gUpper[NX][NY][4]</definition>
+        <argsstring>[NX][NY][4]</argsstring>
+        <name>gUpper</name>
+        <qualifiedname>CSSWM::gUpper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="38" column="31" bodyfile="construction.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1a46cb89c3a07abf49000422a50c5c412f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::alpha2D[NX][NY]</definition>
+        <argsstring>[NX][NY]</argsstring>
+        <name>alpha2D</name>
+        <qualifiedname>CSSWM::alpha2D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="39" column="12" bodyfile="construction.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1a861168d85dd9dd16c52dd56e551bd095" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CSSWM::beta2D[NX][NY]</definition>
+        <argsstring>[NX][NY]</argsstring>
+        <name>beta2D</name>
+        <qualifiedname>CSSWM::beta2D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="39" column="20" bodyfile="construction.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1a8b55469c4b76c053988e51167b9849ea" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CSSWM::match_ouTTer[24][8]</definition>
+        <argsstring>[24][8]</argsstring>
+        <name>match_ouTTer</name>
+        <qualifiedname>CSSWM::match_ouTTer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="45" column="13" bodyfile="construction.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1a16def562291e93e6a4966a26fba78cae" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CSSWM::match_ouTer[24][8]</definition>
+        <argsstring>[24][8]</argsstring>
+        <name>match_ouTer</name>
+        <qualifiedname>CSSWM::match_ouTer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="46" column="13" bodyfile="construction.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1ac78149afa38b72f632f967602cbe70fa" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CSSWM::checkIP_ouTTer[NX][2]</definition>
+        <argsstring>[NX][2]</argsstring>
+        <name>checkIP_ouTTer</name>
+        <qualifiedname>CSSWM::checkIP_ouTTer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="47" column="13" bodyfile="construction.hpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSWM_1a37e58aa53dc6be9a4bbe06abb0cda93a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CSSWM::checkIP_ouTer[NX][2]</definition>
+        <argsstring>[NX][2]</argsstring>
+        <name>checkIP_ouTer</name>
+        <qualifiedname>CSSWM::checkIP_ouTer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="48" column="13" bodyfile="construction.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCSSWM_1ab14d18f70c6bd943f8680296a2c8200a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CSSWM::CSSWM</definition>
+        <argsstring>()</argsstring>
+        <name>CSSWM</name>
+        <qualifiedname>CSSWM::CSSWM</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="36" column="5" bodyfile="construction.cpp" bodystart="177" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1a67d6d61952d7955dd09fdbe309e59d21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSSWM::get_gUpper</definition>
+        <argsstring>(double ans[4], double alpha, double beta)</argsstring>
+        <name>get_gUpper</name>
+        <qualifiedname>CSSWM::get_gUpper</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>ans</declname>
+          <array>[4]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>beta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="53" column="10" bodyfile="construction.cpp" bodystart="340" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1a571a65a8c89cc8a0c776f8a494bbe9b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSSWM::get_gLower</definition>
+        <argsstring>(double ans[4], double alpha, double beta)</argsstring>
+        <name>get_gLower</name>
+        <qualifiedname>CSSWM::get_gLower</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>ans</declname>
+          <array>[4]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>beta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="54" column="10" bodyfile="construction.cpp" bodystart="349" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1a893c5ed631f1c90aa1ed5313a8b3bf6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSSWM::get_A</definition>
+        <argsstring>(double ans[4], int p, double alpha, double beta)</argsstring>
+        <name>get_A</name>
+        <qualifiedname>CSSWM::get_A</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>ans</declname>
+          <array>[4]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>beta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="55" column="10" bodyfile="construction.cpp" bodystart="358" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1a50d3b47d0cd5c08c94870c5649c15ffc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSSWM::get_IA</definition>
+        <argsstring>(double ans[4], int p, double alpha, double beta)</argsstring>
+        <name>get_IA</name>
+        <qualifiedname>CSSWM::get_IA</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>ans</declname>
+          <array>[4]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>beta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="56" column="10" bodyfile="construction.cpp" bodystart="391" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1af570182dabd0192ae7123e57abfa085e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CSSWM::Cube2Sphere_U</definition>
+        <argsstring>(CSSWM &amp;, int, int, int)</argsstring>
+        <name>Cube2Sphere_U</name>
+        <qualifiedname>CSSWM::Cube2Sphere_U</qualifiedname>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <defname>model</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>p</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>i</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>j</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="61" column="12" bodyfile="transform.cpp" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1a926ffcceba476b985ed38f62d58e1c63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CSSWM::Cube2Sphere_V</definition>
+        <argsstring>(CSSWM &amp;, int, int, int)</argsstring>
+        <name>Cube2Sphere_V</name>
+        <qualifiedname>CSSWM::Cube2Sphere_V</qualifiedname>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <defname>model</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>p</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>i</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>j</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="62" column="12" bodyfile="transform.cpp" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1ab0b0167bfd505c793db62caf12334a8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CSSWM::Sphere2Cube_U</definition>
+        <argsstring>(CSSWM &amp;, int, int, int)</argsstring>
+        <name>Sphere2Cube_U</name>
+        <qualifiedname>CSSWM::Sphere2Cube_U</qualifiedname>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <defname>model</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>p</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>i</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>j</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="63" column="12" bodyfile="transform.cpp" bodystart="39" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1a0b0acbb27595bc445cb4985762c47939" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CSSWM::Sphere2Cube_V</definition>
+        <argsstring>(CSSWM &amp;, int, int, int)</argsstring>
+        <name>Sphere2Cube_V</name>
+        <qualifiedname>CSSWM::Sphere2Cube_V</qualifiedname>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <defname>model</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>p</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>i</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>j</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="64" column="12" bodyfile="transform.cpp" bodystart="45" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1a825f0bba32e39344b9abbef0806f2726" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CSSWM::Cube2Cube_U</definition>
+        <argsstring>(CSSWM &amp;model, int p1, int p2, int i1, int j1, int i2, int j2)</argsstring>
+        <name>Cube2Cube_U</name>
+        <qualifiedname>CSSWM::Cube2Cube_U</qualifiedname>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="65" column="12" bodyfile="transform.cpp" bodystart="51" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1aa3542124885ef153c8275a7a17573948" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CSSWM::Cube2Cube_V</definition>
+        <argsstring>(CSSWM &amp;model, int p1, int p2, int i1, int j1, int i2, int j2)</argsstring>
+        <name>Cube2Cube_V</name>
+        <qualifiedname>CSSWM::Cube2Cube_V</qualifiedname>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="66" column="12" bodyfile="transform.cpp" bodystart="78" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1a0d4545097c17a8eab09eba0c650f5ca5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CSSWM::Cube2Cube_BV2AU</definition>
+        <argsstring>(CSSWM &amp;model, int p1, int p2, int i1, int j1, int i2, int j2)</argsstring>
+        <name>Cube2Cube_BV2AU</name>
+        <qualifiedname>CSSWM::Cube2Cube_BV2AU</qualifiedname>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="67" column="12" bodyfile="transform.cpp" bodystart="105" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1a1a78a8aa6f2528cd959a651ed7df7f9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CSSWM::Cube2Cube_BU2AV</definition>
+        <argsstring>(CSSWM &amp;model, int p1, int p2, int i1, int j1, int i2, int j2)</argsstring>
+        <name>Cube2Cube_BU2AV</name>
+        <qualifiedname>CSSWM::Cube2Cube_BU2AV</qualifiedname>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="68" column="12" bodyfile="transform.cpp" bodystart="132" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1ae098ab0ec1205bc42ea1b289944eb17c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CSSWM::Cube2Cube_U_2</definition>
+        <argsstring>(double gLower[4], double IA[4], double A[4], double gUpper[4], double u, double v)</argsstring>
+        <name>Cube2Cube_U_2</name>
+        <qualifiedname>CSSWM::Cube2Cube_U_2</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>gLower</declname>
+          <array>[4]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>IA</declname>
+          <array>[4]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>A</declname>
+          <array>[4]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>gUpper</declname>
+          <array>[4]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="69" column="12" bodyfile="transform.cpp" bodystart="165" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1a8fdfaaaa89fa48220e41784ad4734234" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CSSWM::Cube2Cube_V_2</definition>
+        <argsstring>(double gLower[4], double IA[4], double A[4], double gUpper[4], double u, double v)</argsstring>
+        <name>Cube2Cube_V_2</name>
+        <qualifiedname>CSSWM::Cube2Cube_V_2</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>gLower</declname>
+          <array>[4]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>IA</declname>
+          <array>[4]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>A</declname>
+          <array>[4]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>gUpper</declname>
+          <array>[4]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="70" column="12" bodyfile="transform.cpp" bodystart="190" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1a74fb40ab10c7a9df351a8e4dba4727d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSSWM::matrixMul</definition>
+        <argsstring>(double firstMatrix[4], double secondMatrix[4], double mult[2][2])</argsstring>
+        <name>matrixMul</name>
+        <qualifiedname>CSSWM::matrixMul</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>firstMatrix</declname>
+          <array>[4]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>secondMatrix</declname>
+          <array>[4]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>mult</declname>
+          <array>[2][2]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="71" column="10" bodyfile="transform.cpp" bodystart="4" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1a2ad02b2a1964a0dda09036698bd47f3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSSWM::Cube2Cube_matrix</definition>
+        <argsstring>()</argsstring>
+        <name>Cube2Cube_matrix</name>
+        <qualifiedname>CSSWM::Cube2Cube_matrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="72" column="10" bodyfile="transform.cpp" bodystart="216" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1a97db79f4a605b9f18a58b36ef2c34b09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSSWM::BP_h</definition>
+        <argsstring>(CSSWM &amp;)</argsstring>
+        <name>BP_h</name>
+        <qualifiedname>CSSWM::BP_h</qualifiedname>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <defname>model</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="77" column="10" bodyfile="bp_h.cpp" bodystart="3" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1a0eae71982d00112d3bff870a54337d22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CSSWM::interpolate</definition>
+        <argsstring>(double A1, double A2, double V1, double V2, double B)</argsstring>
+        <name>interpolate</name>
+        <qualifiedname>CSSWM::interpolate</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>A1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>A2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>V1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>V2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>B</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="81" column="12" bodyfile="bp_h.cpp" bodystart="223" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1aafcd5b0cdfe4e408fcd4cd5a23b59fb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSSWM::BP_wind_convert</definition>
+        <argsstring>(CSSWM &amp;)</argsstring>
+        <name>BP_wind_convert</name>
+        <qualifiedname>CSSWM::BP_wind_convert</qualifiedname>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <defname>model</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="86" column="10" bodyfile="bp_wind.cpp" bodystart="3" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1a7bbab604fb7950a166e445226fc559a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSSWM::BP_wind_interpolation</definition>
+        <argsstring>(CSSWM &amp;)</argsstring>
+        <name>BP_wind_interpolation</name>
+        <qualifiedname>CSSWM::BP_wind_interpolation</qualifiedname>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <defname>model</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="87" column="10" bodyfile="bp_wind.cpp" bodystart="239" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1aaf5d8750525b1af05a742dca9c8305cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSSWM::BP_wind_interpolation2</definition>
+        <argsstring>(CSSWM &amp;)</argsstring>
+        <name>BP_wind_interpolation2</name>
+        <qualifiedname>CSSWM::BP_wind_interpolation2</qualifiedname>
+        <param>
+          <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref> &amp;</type>
+          <defname>model</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="88" column="10" bodyfile="bp_wind.cpp" bodystart="371" bodyend="508"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classCSSWM_1a253f9cf389c013ae3aad5f32ceb92062" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSSWM::Construct_gamma_sqrtG_GUpper</definition>
+        <argsstring>(double alpha2D[NX][NY], double beta2D[NX][NY], double gamma[NX][NY], double sqrtG[NX][NY], double gUpper[NX][NY][4], double gLower[NX][NY][4])</argsstring>
+        <name>Construct_gamma_sqrtG_GUpper</name>
+        <qualifiedname>CSSWM::Construct_gamma_sqrtG_GUpper</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>alpha2D</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>beta2D</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>gamma</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sqrtG</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>gUpper</declname>
+          <array>[NX][NY][4]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>gLower</declname>
+          <array>[NX][NY][4]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="94" column="10" bodyfile="construction.cpp" bodystart="17" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1a4d7f1bc5f8ce2b126a4e48dbee171873" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSSWM::Construct_p0123_lonlat_xy_AIA</definition>
+        <argsstring>(int p, double alpha2D[NX][NY], double beta2D[NX][NY], double gamma[NX][NY], double lon[NX][NY], double lat[NX][NY], double x[NX][NY], double y[NX][NY], double A[NX][NY][4], double IA[NX][NY][4])</argsstring>
+        <name>Construct_p0123_lonlat_xy_AIA</name>
+        <qualifiedname>CSSWM::Construct_p0123_lonlat_xy_AIA</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alpha2D</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>beta2D</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>gamma</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lat</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>A</declname>
+          <array>[NX][NY][4]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>IA</declname>
+          <array>[NX][NY][4]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="95" column="10" bodyfile="construction.cpp" bodystart="37" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1a539350b5f44240948a4cbbddb3c0de98" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSSWM::Construct_p4_lonlat_xy_AIA</definition>
+        <argsstring>(int p, double alpha2D[NX][NY], double beta2D[NX][NY], double gamma[NX][NY], double lon[NX][NY], double lat[NX][NY], double x[NX][NY], double y[NX][NY], double A[NX][NY][4], double IA[NX][NY][4])</argsstring>
+        <name>Construct_p4_lonlat_xy_AIA</name>
+        <qualifiedname>CSSWM::Construct_p4_lonlat_xy_AIA</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alpha2D</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>beta2D</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>gamma</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lat</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>A</declname>
+          <array>[NX][NY][4]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>IA</declname>
+          <array>[NX][NY][4]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="96" column="10" bodyfile="construction.cpp" bodystart="66" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSWM_1a04327ca534f8f7abbbc0f75647dfa6a5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSSWM::Construct_p5_lonlat_xy_AIA</definition>
+        <argsstring>(int p, double alpha2D[NX][NY], double beta2D[NX][NY], double gamma[NX][NY], double lon[NX][NY], double lat[NX][NY], double x[NX][NY], double y[NX][NY], double A[NX][NY][4], double IA[NX][NY][4])</argsstring>
+        <name>Construct_p5_lonlat_xy_AIA</name>
+        <qualifiedname>CSSWM::Construct_p5_lonlat_xy_AIA</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alpha2D</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>beta2D</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>gamma</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lat</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+          <array>[NX][NY]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>A</declname>
+          <array>[NX][NY][4]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>IA</declname>
+          <array>[NX][NY][4]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="construction.hpp" line="97" column="10" bodyfile="construction.cpp" bodystart="95" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>CSSWM</label>
+        <link refid="classCSSWM"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>csswm</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CSSWM::patch</label>
+        <link refid="classCSSWM_1_1patch"/>
+      </node>
+    </collaborationgraph>
+    <location file="construction.hpp" line="6" column="1" bodyfile="construction.hpp" bodystart="6" bodyend="98"/>
+    <listofallmembers>
+      <member refid="classCSSWM_1a46cb89c3a07abf49000422a50c5c412f" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>alpha2D</name></member>
+      <member refid="classCSSWM_1a861168d85dd9dd16c52dd56e551bd095" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>beta2D</name></member>
+      <member refid="classCSSWM_1a97db79f4a605b9f18a58b36ef2c34b09" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>BP_h</name></member>
+      <member refid="classCSSWM_1aafcd5b0cdfe4e408fcd4cd5a23b59fb6" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>BP_wind_convert</name></member>
+      <member refid="classCSSWM_1a7bbab604fb7950a166e445226fc559a2" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>BP_wind_interpolation</name></member>
+      <member refid="classCSSWM_1aaf5d8750525b1af05a742dca9c8305cb" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>BP_wind_interpolation2</name></member>
+      <member refid="classCSSWM_1a37e58aa53dc6be9a4bbe06abb0cda93a" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>checkIP_ouTer</name></member>
+      <member refid="classCSSWM_1ac78149afa38b72f632f967602cbe70fa" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>checkIP_ouTTer</name></member>
+      <member refid="classCSSWM_1a253f9cf389c013ae3aad5f32ceb92062" prot="private" virt="non-virtual"><scope>CSSWM</scope><name>Construct_gamma_sqrtG_GUpper</name></member>
+      <member refid="classCSSWM_1a4d7f1bc5f8ce2b126a4e48dbee171873" prot="private" virt="non-virtual"><scope>CSSWM</scope><name>Construct_p0123_lonlat_xy_AIA</name></member>
+      <member refid="classCSSWM_1a539350b5f44240948a4cbbddb3c0de98" prot="private" virt="non-virtual"><scope>CSSWM</scope><name>Construct_p4_lonlat_xy_AIA</name></member>
+      <member refid="classCSSWM_1a04327ca534f8f7abbbc0f75647dfa6a5" prot="private" virt="non-virtual"><scope>CSSWM</scope><name>Construct_p5_lonlat_xy_AIA</name></member>
+      <member refid="classCSSWM_1a700d22663571c912931d18420588c229" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>csswm</name></member>
+      <member refid="classCSSWM_1ab14d18f70c6bd943f8680296a2c8200a" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>CSSWM</name></member>
+      <member refid="classCSSWM_1a1a78a8aa6f2528cd959a651ed7df7f9f" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>Cube2Cube_BU2AV</name></member>
+      <member refid="classCSSWM_1a0d4545097c17a8eab09eba0c650f5ca5" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>Cube2Cube_BV2AU</name></member>
+      <member refid="classCSSWM_1a2ad02b2a1964a0dda09036698bd47f3c" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>Cube2Cube_matrix</name></member>
+      <member refid="classCSSWM_1a825f0bba32e39344b9abbef0806f2726" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>Cube2Cube_U</name></member>
+      <member refid="classCSSWM_1ae098ab0ec1205bc42ea1b289944eb17c" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>Cube2Cube_U_2</name></member>
+      <member refid="classCSSWM_1aa3542124885ef153c8275a7a17573948" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>Cube2Cube_V</name></member>
+      <member refid="classCSSWM_1a8fdfaaaa89fa48220e41784ad4734234" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>Cube2Cube_V_2</name></member>
+      <member refid="classCSSWM_1af570182dabd0192ae7123e57abfa085e" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>Cube2Sphere_U</name></member>
+      <member refid="classCSSWM_1a926ffcceba476b985ed38f62d58e1c63" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>Cube2Sphere_V</name></member>
+      <member refid="classCSSWM_1aa49917ddb2d51169a0f7a5713dc377a4" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>gamma</name></member>
+      <member refid="classCSSWM_1a893c5ed631f1c90aa1ed5313a8b3bf6d" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>get_A</name></member>
+      <member refid="classCSSWM_1a571a65a8c89cc8a0c776f8a494bbe9b3" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>get_gLower</name></member>
+      <member refid="classCSSWM_1a67d6d61952d7955dd09fdbe309e59d21" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>get_gUpper</name></member>
+      <member refid="classCSSWM_1a50d3b47d0cd5c08c94870c5649c15ffc" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>get_IA</name></member>
+      <member refid="classCSSWM_1ae8db5c4014b60ee7e71a4260e84aecc4" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>gLower</name></member>
+      <member refid="classCSSWM_1a332193198016b7a4807d26bf4f2d7a2e" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>gUpper</name></member>
+      <member refid="classCSSWM_1a0eae71982d00112d3bff870a54337d22" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>interpolate</name></member>
+      <member refid="classCSSWM_1a16def562291e93e6a4966a26fba78cae" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>match_ouTer</name></member>
+      <member refid="classCSSWM_1a8b55469c4b76c053988e51167b9849ea" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>match_ouTTer</name></member>
+      <member refid="classCSSWM_1a74fb40ab10c7a9df351a8e4dba4727d0" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>matrixMul</name></member>
+      <member refid="classCSSWM_1ab0b0167bfd505c793db62caf12334a8d" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>Sphere2Cube_U</name></member>
+      <member refid="classCSSWM_1a0b0acbb27595bc445cb4985762c47939" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>Sphere2Cube_V</name></member>
+      <member refid="classCSSWM_1a8e97aa17413d2f1906118e09959cd7e0" prot="public" virt="non-virtual"><scope>CSSWM</scope><name>sqrtG</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

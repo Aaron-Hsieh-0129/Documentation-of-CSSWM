@@ -1,0 +1,14 @@
+.. _exhale_define_define_8hpp_1a54513390f387af6763f7595407962711:
+
+Define KX
+=========
+
+- Defined in :ref:`file_define.hpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: KX
+   :project: Cubed-Sphere-Shallow-Water-Model-A-grid

@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="main_8cpp" kind="file" language="C++">
+    <compoundname>main.cpp</compoundname>
+    <includes refid="iteration_8hpp" local="yes">iteration.hpp</includes>
+    <incdepgraph>
+      <node id="10">
+        <label>construction.hpp</label>
+        <link refid="construction_8hpp"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>define.hpp</label>
+        <link refid="define_8hpp"/>
+      </node>
+      <node id="9">
+        <label>initialField.hpp</label>
+        <link refid="initialField_8hpp"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>iteration.hpp</label>
+        <link refid="iteration_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>outputs.hpp</label>
+        <link refid="outputs_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>cmath</label>
+      </node>
+      <node id="5">
+        <label>cstdlib</label>
+      </node>
+      <node id="6">
+        <label>cstring</label>
+      </node>
+      <node id="4">
+        <label>fstream</label>
+      </node>
+      <node id="13">
+        <label>iomanip</label>
+      </node>
+      <node id="12">
+        <label>iostream</label>
+      </node>
+      <node id="7">
+        <label>netcdf</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="main_8cpp_1ac81538641e7b9742f8cee45fb528a769" prot="public" static="no" mutable="no">
+        <type><ref refid="classCSSWM" kindref="compound">CSSWM</ref></type>
+        <definition>CSSWM model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.cpp" line="12" column="7" bodyfile="main.cpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(void)</argsstring>
+        <name>main</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.cpp" line="13" column="5" bodyfile="main.cpp" bodystart="13" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is a brief description of what is in this file. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This is a longer description of the file. It contains more detailed information about the file and what it contains. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="iteration_8hpp" kindref="compound">iteration.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><ref refid="classCSSWM" kindref="compound">CSSWM</ref><sp/><ref refid="main_8cpp_1ac81538641e7b9742f8cee45fb528a769" kindref="member">model</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe" kindref="member">main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>clock_t<sp/>start,<sp/>stop;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>start<sp/>=<sp/>clock();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classInit_1ac7703544cf98b8389d97b92ec541aa07" kindref="member">Init::Init2d</ref>(<ref refid="main_8cpp_1ac81538641e7b9742f8cee45fb528a769" kindref="member">model</ref>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classIteration_1a5234031fa1dc76c671bb96e4faf1b7d7" kindref="member">Iteration::leap_frog</ref>(<ref refid="main_8cpp_1ac81538641e7b9742f8cee45fb528a769" kindref="member">model</ref>);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>stop<sp/>=<sp/>clock();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>double(stop<sp/>-<sp/>start)<sp/>/<sp/>CLOCKS_PER_SEC<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>s&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="main.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+.. _exhale_define_define_8hpp_1a993a7929a1ac695da576b8d876d90946:
+
+Define DY
+=========
+
+- Defined in :ref:`file_define.hpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: DY
+   :project: Cubed-Sphere-Shallow-Water-Model-A-grid

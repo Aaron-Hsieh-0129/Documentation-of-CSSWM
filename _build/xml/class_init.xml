@@ -1,0 +1,554 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_init" kind="class" language="C++" prot="public">
+    <compoundname>Init</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_init_1a06a43f2bcb930e7ebec7d383efc15fd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Init::Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <qualifiedname>Init::Init</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="5" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_init_1ac7703544cf98b8389d97b92ec541aa07" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Init::Init2d</definition>
+        <argsstring>(CSSWM &amp;)</argsstring>
+        <name>Init2d</name>
+        <qualifiedname>Init::Init2d</qualifiedname>
+        <param>
+          <type><ref refid="class_c_s_s_w_m" kindref="compound">CSSWM</ref> &amp;</type>
+          <defname>model</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="6" column="17" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="3" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1ae78e82e9e20763588153d8270fe8bc73" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::BarotropicU</definition>
+        <argsstring>(double)</argsstring>
+        <name>BarotropicU</name>
+        <qualifiedname>Init::BarotropicU</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="7" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="221" bodyend="230"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_init_1adc371318cdffb8447ac0f2c80d15de12" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::JungH</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>JungH</name>
+        <qualifiedname>Init::JungH</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lon</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>lat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="10" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="124" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1af302a6ea9eeece743720296ebc1cac5f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::JungU</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>JungU</name>
+        <qualifiedname>Init::JungU</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lon</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>lat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="11" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="133" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1aa117d76403b0653c519efa8a6fb8dcf6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::JungV</definition>
+        <argsstring>(double)</argsstring>
+        <name>JungV</name>
+        <qualifiedname>Init::JungV</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lon</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="12" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="139" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1abd88583e470972d4cc3804dd9b7f1c6a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::AdvectionH</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>AdvectionH</name>
+        <qualifiedname>Init::AdvectionH</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lon</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>lat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="14" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="145" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1a002d987ec3a2d491c75dd15606e53e86" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::AdvectionU</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>AdvectionU</name>
+        <qualifiedname>Init::AdvectionU</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lon</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>lat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="15" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="154" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1ad35ee730beb17e8745bc71415b57293a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::AdvectionV</definition>
+        <argsstring>(double)</argsstring>
+        <name>AdvectionV</name>
+        <qualifiedname>Init::AdvectionV</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lon</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="16" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="160" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1a5c2fc02aad1084dbeddbc83326c78847" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::Gravity</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>Gravity</name>
+        <qualifiedname>Init::Gravity</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lon</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>lat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="18" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="166" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1a118d78ee5781c83dc7018d9588ea3940" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::SteadyGeostrophyH</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>SteadyGeostrophyH</name>
+        <qualifiedname>Init::SteadyGeostrophyH</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lon</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>lat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="19" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="175" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1a8cdf572f83e7f152b4f32d0639781ceb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::SteadyGeostrophyU</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>SteadyGeostrophyU</name>
+        <qualifiedname>Init::SteadyGeostrophyU</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lon</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>lat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="20" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="181" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1ad73d42c5359dc37330db2d683c53ac69" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::SteadyGeostrophyV</definition>
+        <argsstring>(double)</argsstring>
+        <name>SteadyGeostrophyV</name>
+        <qualifiedname>Init::SteadyGeostrophyV</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lon</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="21" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="186" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1a6c17197c720ff10024f1e558e32a68ce" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::ConvergenceRateH</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>ConvergenceRateH</name>
+        <qualifiedname>Init::ConvergenceRateH</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lon</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>lat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="22" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="110" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1a714395675884875036942a7db09d6f4f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::DeformationalFlowH</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>DeformationalFlowH</name>
+        <qualifiedname>Init::DeformationalFlowH</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lon</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>lat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="23" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="117" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1ac79ec5c7bcc26e18676372f9768c904d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::BarotropicH</definition>
+        <argsstring>(double)</argsstring>
+        <name>BarotropicH</name>
+        <qualifiedname>Init::BarotropicH</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="24" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="209" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1aca71f2db989f3c60c617c1557e3b9f6d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::BarotropicHPrime</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>BarotropicHPrime</name>
+        <qualifiedname>Init::BarotropicHPrime</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lon</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>lat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="25" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="215" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1ae6ad483a21f28ecca04f0d5edf6cddec" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::MountainH</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>MountainH</name>
+        <qualifiedname>Init::MountainH</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lon</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>lat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="27" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="191" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1ab85f6d5345da2b96575e79ea833c700a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::MountainU</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>MountainU</name>
+        <qualifiedname>Init::MountainU</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lon</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>lat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="28" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="197" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1a36915f11f159920b6fcaea7ffc32fc2f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::MountainV</definition>
+        <argsstring>(double)</argsstring>
+        <name>MountainV</name>
+        <qualifiedname>Init::MountainV</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lon</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="29" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="203" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1a02e05729df4a1829e5cade92ef40add4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::RossbyHaurwitzH</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>RossbyHaurwitzH</name>
+        <qualifiedname>Init::RossbyHaurwitzH</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lon</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>lat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="31" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="255" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1a3fe6e607879ffa817639107c98d5c48c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::RossbyHaurwitzU</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>RossbyHaurwitzU</name>
+        <qualifiedname>Init::RossbyHaurwitzU</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lon</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>lat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="32" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="269" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1aafba64acc1874641a8492f3a4b2e4f74" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::RossbyHaurwitzV</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>RossbyHaurwitzV</name>
+        <qualifiedname>Init::RossbyHaurwitzV</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>lon</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>lat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="33" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="276" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1a9f2d0bff021ab7a27e5d0c8e21bc5cce" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::simpson</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>simpson</name>
+        <qualifiedname>Init::simpson</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="35" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="237" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="class_init_1aa3889dfbabc32b7d69edfe3908f11e95" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Init::func</definition>
+        <argsstring>(double)</argsstring>
+        <name>func</name>
+        <qualifiedname>Init::func</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>x</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="36" column="19" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.cpp" bodystart="232" bodyend="235"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" line="3" column="1" bodyfile="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/initialField.hpp" bodystart="3" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_init_1abd88583e470972d4cc3804dd9b7f1c6a" prot="private" virt="non-virtual"><scope>Init</scope><name>AdvectionH</name></member>
+      <member refid="class_init_1a002d987ec3a2d491c75dd15606e53e86" prot="private" virt="non-virtual"><scope>Init</scope><name>AdvectionU</name></member>
+      <member refid="class_init_1ad35ee730beb17e8745bc71415b57293a" prot="private" virt="non-virtual"><scope>Init</scope><name>AdvectionV</name></member>
+      <member refid="class_init_1ac79ec5c7bcc26e18676372f9768c904d" prot="private" virt="non-virtual"><scope>Init</scope><name>BarotropicH</name></member>
+      <member refid="class_init_1aca71f2db989f3c60c617c1557e3b9f6d" prot="private" virt="non-virtual"><scope>Init</scope><name>BarotropicHPrime</name></member>
+      <member refid="class_init_1ae78e82e9e20763588153d8270fe8bc73" prot="public" virt="non-virtual"><scope>Init</scope><name>BarotropicU</name></member>
+      <member refid="class_init_1a6c17197c720ff10024f1e558e32a68ce" prot="private" virt="non-virtual"><scope>Init</scope><name>ConvergenceRateH</name></member>
+      <member refid="class_init_1a714395675884875036942a7db09d6f4f" prot="private" virt="non-virtual"><scope>Init</scope><name>DeformationalFlowH</name></member>
+      <member refid="class_init_1aa3889dfbabc32b7d69edfe3908f11e95" prot="private" virt="non-virtual"><scope>Init</scope><name>func</name></member>
+      <member refid="class_init_1a5c2fc02aad1084dbeddbc83326c78847" prot="private" virt="non-virtual"><scope>Init</scope><name>Gravity</name></member>
+      <member refid="class_init_1a06a43f2bcb930e7ebec7d383efc15fd9" prot="public" virt="non-virtual"><scope>Init</scope><name>Init</name></member>
+      <member refid="class_init_1ac7703544cf98b8389d97b92ec541aa07" prot="public" virt="non-virtual"><scope>Init</scope><name>Init2d</name></member>
+      <member refid="class_init_1adc371318cdffb8447ac0f2c80d15de12" prot="private" virt="non-virtual"><scope>Init</scope><name>JungH</name></member>
+      <member refid="class_init_1af302a6ea9eeece743720296ebc1cac5f" prot="private" virt="non-virtual"><scope>Init</scope><name>JungU</name></member>
+      <member refid="class_init_1aa117d76403b0653c519efa8a6fb8dcf6" prot="private" virt="non-virtual"><scope>Init</scope><name>JungV</name></member>
+      <member refid="class_init_1ae6ad483a21f28ecca04f0d5edf6cddec" prot="private" virt="non-virtual"><scope>Init</scope><name>MountainH</name></member>
+      <member refid="class_init_1ab85f6d5345da2b96575e79ea833c700a" prot="private" virt="non-virtual"><scope>Init</scope><name>MountainU</name></member>
+      <member refid="class_init_1a36915f11f159920b6fcaea7ffc32fc2f" prot="private" virt="non-virtual"><scope>Init</scope><name>MountainV</name></member>
+      <member refid="class_init_1a02e05729df4a1829e5cade92ef40add4" prot="private" virt="non-virtual"><scope>Init</scope><name>RossbyHaurwitzH</name></member>
+      <member refid="class_init_1a3fe6e607879ffa817639107c98d5c48c" prot="private" virt="non-virtual"><scope>Init</scope><name>RossbyHaurwitzU</name></member>
+      <member refid="class_init_1aafba64acc1874641a8492f3a4b2e4f74" prot="private" virt="non-virtual"><scope>Init</scope><name>RossbyHaurwitzV</name></member>
+      <member refid="class_init_1a9f2d0bff021ab7a27e5d0c8e21bc5cce" prot="private" virt="non-virtual"><scope>Init</scope><name>simpson</name></member>
+      <member refid="class_init_1a118d78ee5781c83dc7018d9588ea3940" prot="private" virt="non-virtual"><scope>Init</scope><name>SteadyGeostrophyH</name></member>
+      <member refid="class_init_1a8cdf572f83e7f152b4f32d0639781ceb" prot="private" virt="non-virtual"><scope>Init</scope><name>SteadyGeostrophyU</name></member>
+      <member refid="class_init_1ad73d42c5359dc37330db2d683c53ac69" prot="private" virt="non-virtual"><scope>Init</scope><name>SteadyGeostrophyV</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

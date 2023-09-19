@@ -1,0 +1,14 @@
+.. _exhale_define_define_8hpp_1a652e87ecc9140879666ae9d6bf4ca893:
+
+Define NY
+=========
+
+- Defined in :ref:`file_define.hpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: NY
+   :project: Cubed-Sphere-Shallow-Water-Model-A-grid

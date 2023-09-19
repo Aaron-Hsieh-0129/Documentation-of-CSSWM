@@ -1,0 +1,14 @@
+.. _exhale_define_define_8hpp_1a0655d0634c4318c8800eed01d9694e21:
+
+Define FourthOrderSpace
+=======================
+
+- Defined in :ref:`file_define.hpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: FourthOrderSpace
+   :project: Cubed-Sphere-Shallow-Water-Model-A-grid

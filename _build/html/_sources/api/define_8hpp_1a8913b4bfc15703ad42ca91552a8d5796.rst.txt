@@ -1,0 +1,14 @@
+.. _exhale_define_define_8hpp_1a8913b4bfc15703ad42ca91552a8d5796:
+
+Define OMEGA
+============
+
+- Defined in :ref:`file_define.hpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: OMEGA
+   :project: Cubed-Sphere-Shallow-Water-Model-A-grid

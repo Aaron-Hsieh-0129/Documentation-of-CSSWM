@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
+    <compoundname>/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src</compoundname>
+    <innerfile refid="bp__h_8cpp">bp_h.cpp</innerfile>
+    <innerfile refid="bp__wind_8cpp">bp_wind.cpp</innerfile>
+    <innerfile refid="construction_8cpp">construction.cpp</innerfile>
+    <innerfile refid="construction_8hpp">construction.hpp</innerfile>
+    <innerfile refid="define_8hpp">define.hpp</innerfile>
+    <innerfile refid="initial_field_8cpp">initialField.cpp</innerfile>
+    <innerfile refid="initial_field_8hpp">initialField.hpp</innerfile>
+    <innerfile refid="iteration_8cpp">iteration.cpp</innerfile>
+    <innerfile refid="iteration_8hpp">iteration.hpp</innerfile>
+    <innerfile refid="main_8cpp">main.cpp</innerfile>
+    <innerfile refid="outputs_8cpp">outputs.cpp</innerfile>
+    <innerfile refid="outputs_8hpp">outputs.hpp</innerfile>
+    <innerfile refid="transform_8cpp">transform.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/aaron/Research/Cubed-Sphere-Shallow-Water-Model-A-grid/src/"/>
+  </compounddef>
+</doxygen>
