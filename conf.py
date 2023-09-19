@@ -85,7 +85,7 @@ html_static_path = ['_static']
 
 # -- Breathe configuration -------------------------------------------------
 breathe_projects = {
-	"Cubed-Sphere-Shallow-Water-Model-A-grid": "_build/xml/"
+	"Cubed-Sphere-Shallow-Water-Model-A-grid": "./xml/"
 }
 breathe_default_project = "Cubed Sphere Shallow Water Model"
 breathe_default_members = ('members', 'undoc-members')
